@@ -1,0 +1,58 @@
+Welcome the User:
+
+Start by displaying a welcome message to the user.
+Explain that they will need to provide details about their investment to see how it will grow over time.
+Ask for User Inputs:
+
+Request the user to enter the initial amount of their investment.
+Ask for the amount they plan to deposit into the investment each month.
+Request the annual interest rate, which is the percentage of interest earned per year.
+Ask how many years the investment will be held.
+Inform the user to press any key to proceed once they have entered all the required information.
+Calculate Investment Growth Without Monthly Deposits:
+
+Start with the initial investment amount.
+
+Convert the annual interest rate into a monthly rate by dividing by 12 and converting the percentage to a decimal.
+
+Calculate the total number of months by multiplying the number of years by 12.
+
+For each year of the investment:
+
+Keep track of the balance at the start of the year.
+
+Track the total interest earned by the end of the year.
+
+For each month within the year:
+
+Calculate the interest earned for that month based on the current balance.
+Add this interest to the balance.
+Add the interest earned that month to the total interest for the year.
+At the end of each year, display the balance and the total interest earned during that year.
+
+Calculate Investment Growth With Monthly Deposits:
+
+Start with the initial investment amount.
+
+Use the same monthly interest rate as calculated before.
+
+Calculate the total number of months as done previously.
+
+For each year of the investment:
+
+Keep track of the balance at the start of the year.
+
+Track the total interest earned by the end of the year.
+
+For each month within the year:
+
+First, add the monthly deposit to the current balance.
+Calculate the interest earned for that month based on the updated balance.
+Add this interest to the balance.
+Add the interest earned that month to the total interest for the year.
+At the end of each year, display the balance and the total interest earned during that year.
+
+End the Program:
+
+Thank the user for using the investment calculator.
+Provide a message indicating the end of the program and close the application.
